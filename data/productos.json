@@ -1,0 +1,26 @@
+
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Alimento para perros",
+            "categoria": "Alimentación",
+            "precio": 120,
+            "imagen": "img/producto1.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Accesorios para mascotas",
+            "categoria": "Accesorios",
+            "precio": 50,
+            "imagen": "img/producto2.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Productos veterinarios",
+            "categoria": "Medicamentos",
+            "precio": 80,
+            "imagen": "img/producto3.jpg"
+        }
+    ]
+}

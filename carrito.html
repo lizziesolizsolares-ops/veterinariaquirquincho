@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header class="encabezado">
+    <button class="menu-btn" onclick="abrirMenu()">☰</button>
+    <a href="index.html" class="logo">QUIRQUINCHO 🐾</a>
+
+    <nav id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<main class="pagina carrito">
+    <h1>🛒 MI CARRITO</h1>
+
+    <div id="contenido-carrito">
+        <p>Tu carrito está vacío.</p>
+    </div>
+
+    <h2 id="total">Total: Bs. 0</h2>
+
+    <button class="boton" onclick="vaciarCarrito()">
+        Vaciar carrito
+    </button>
+
+    <a href="productos.html" class="boton">
+        Seguir comprando
+    </a>
+</main>
+
+<footer>
+    <h2>VETERINARIA QUIRQUINCHO 🐾</h2>
+    <p>Oruro - Bolivia</p>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/carrito.js"></script>
+</body>
+</html>

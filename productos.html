@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header class="encabezado">
+    <button class="menu-btn" onclick="abrirMenu()">☰</button>
+    <a href="index.html" class="logo">VETERINARIA QUIRQUINCHO 🐾</a>
+
+    <nav id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="carrito.html">Carrito</a>
+    </nav>
+</header>
+
+<main class="productos">
+    <span class="subtitulo">CALIDAD PARA TUS MASCOTAS</span>
+    <h1>PRODUCTOS DESTACADOS</h1>
+
+    <div class="productos-grid" id="lista-productos">
+
+        <div class="producto">000000000
+            <img src="img/alimentacion.jpg" alt="Alimento para perros">
+            <div class="producto-info">
+                <span>ALIMENTACIÓN</span>
+                <h3>Alimento para perros</h3>
+                <p>Nutrición para tu mascota.</p>
+                <strong>Bs. 120</strong>
+                <button onclick="agregarCarrito(1)">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/perrito.jpg" alt="Accesorios para mascotas">
+            <div class="producto-info">
+                <span>ACCESORIOS</span>
+                <h3>Accesorios para mascotas</h3>
+                <p>Productos para su cuidado.</p>
+                <strong>Bs. 50</strong>
+                <button onclick="agregarCarrito(2)">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/images.jpg" alt="Medicamentos veterinarios">
+            <div class="producto-info">
+                <span>MEDICAMENTOS</span>
+                <h3>Productos veterinarios</h3>
+                <p>Productos para el cuidado animal.</p>
+                <strong>Bs. 80</strong>
+                <button onclick="agregarCarrito(3)">Agregar al carrito</button>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <h2>VETERINARIA QUIRQUINCHO 🐾</h2>
+    <p>Productos para el bienestar animal.</p>
+    <p>Oruro - Bolivia</p>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/productos.js"></script>
+
+
+</body>
+</html>
